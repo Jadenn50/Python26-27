@@ -6,7 +6,7 @@ bob.goto(850,350)
 bob.pendown()
 sun(100,50)
 
-bob.pensize(9)
+bob.pensize(10)
 # ________________________________________________
 # Puts 100 stars in random positions with random angle
 for times in range(100):
@@ -18,4 +18,3 @@ for times in range(100):
     angle2 = randint(1,359)
     turn(angle1,angle2)
     jump(x,y)
-
