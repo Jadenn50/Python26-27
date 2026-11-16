@@ -5,7 +5,7 @@ bob.speed(0)
 turtle.colormode(255)
 turtle.bgcolor(0,0,0)
 bob.shape("turtle")
-bob.color(255,140,0)
+bob.color(255,165,0)
 # ________________________________________________
 # Sun function
 def sun(dist,angle):
@@ -30,16 +30,6 @@ def turn(angle1,angle2):
     bob.left(angle1)
     bob.right(angle2)
     
-
-
-
-
-
-
-
-
-
-
 
 
 
